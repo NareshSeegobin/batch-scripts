@@ -167,6 +167,119 @@ netsh advfirewall firewall show rule name="VirtualBox Manager" verbose
 
 
 
+@REM -----------------------------------------------------------------------------------------------------------
+
+@REM program="C:\program files\oracle\virtualbox\virtualbox.exe" 
+
+@REM https://www.itninja.com/blog/view/how-to-add-firewall-rules-using-netsh-exe-advanced-way
+@REM VirtualBox
+@REM Omitting the protocol=tcp and/or protocol=udp will configure the rule to allow ALL protocols.
+
+@netsh advfirewall firewall add rule name="VirtualBox Manager - TCP and UDP - CUSTOM" dir=in action=allow description="VirtualBox Manager - TCP and UDP - CUSTOM" program="C:\program files\oracle\virtualbox\virtualbox.exe" enable=yes profile=any 
+
+
+@REM -----------------------------------------------------------------------------------------------------------
+
+
+
+@REM -----------------------------------------------------------------------------------------------------------
+
+@REM program="C:\Program Files\Cisco Packet Tracer 7.1.1\bin\PacketTracer7.exe" 
+
+@REM https://www.itninja.com/blog/view/how-to-add-firewall-rules-using-netsh-exe-advanced-way
+@REM Cisco Packet Tracer
+@REM Omitting the protocol=tcp and/or protocol=udp will configure the rule to allow ALL protocols.
+@REM ALL Protocols mans TCP, UDP, ICMP, ...etc.
+
+@netsh advfirewall firewall add rule name="Cisco Packet Tracer 7.1.1 - TCP and UDP - CUSTOM" dir=in action=allow description="Cisco Packet Tracer 7.1.1 - TCP and UDP - CUSTOM" program="C:\Program Files\Cisco Packet Tracer 7.1.1\bin\PacketTracer7.exe" enable=yes profile=any 
+
+@REM 
+
+
+@REM program="C:\Program Files\Cisco Packet Tracer 7.2\bin\PacketTracer7.exe" 
+
+@REM https://www.itninja.com/blog/view/how-to-add-firewall-rules-using-netsh-exe-advanced-way
+@REM Cisco Packet Tracer
+@REM Omitting the protocol=tcp and/or protocol=udp will configure the rule to allow ALL protocols.
+@REM ALL Protocols mans TCP, UDP, ICMP, ...etc.
+
+@netsh advfirewall firewall add rule name="Cisco Packet Tracer 7.2 - TCP and UDP - CUSTOM" dir=in action=allow description="Cisco Packet Tracer 7.2 - TCP and UDP - CUSTOM" program="C:\Program Files\Cisco Packet Tracer 7.2\bin\PacketTracer7.exe" enable=yes profile=any 
+
+@REM
+
+
+@REM program="C:\Program Files\Cisco Packet Tracer 7.2.1\bin\PacketTracer7.exe" 
+
+@REM https://www.itninja.com/blog/view/how-to-add-firewall-rules-using-netsh-exe-advanced-way
+@REM Cisco Packet Tracer
+@REM Omitting the protocol=tcp and/or protocol=udp will configure the rule to allow ALL protocols.
+@REM ALL Protocols mans TCP, UDP, ICMP, ...etc.
+
+@netsh advfirewall firewall add rule name="Cisco Packet Tracer 7.2.1 - TCP and UDP - CUSTOM" dir=in action=allow description="Cisco Packet Tracer 7.2.1 - TCP and UDP - CUSTOM" program="C:\Program Files\Cisco Packet Tracer 7.2.1\bin\PacketTracer7.exe" enable=yes profile=any 
+
+@REM
+
+
+
+@REM program="C:\Program Files\Cisco Packet Tracer 7.2.2\bin\PacketTracer7.exe" 
+
+@REM https://www.itninja.com/blog/view/how-to-add-firewall-rules-using-netsh-exe-advanced-way
+@REM Cisco Packet Tracer
+@REM Omitting the protocol=tcp and/or protocol=udp will configure the rule to allow ALL protocols.
+@REM ALL Protocols mans TCP, UDP, ICMP, ...etc.
+
+@netsh advfirewall firewall add rule name="Cisco Packet Tracer 7.2.2 - TCP and UDP - CUSTOM" dir=in action=allow description="Cisco Packet Tracer 7.2.2 - TCP and UDP - CUSTOM" program="C:\Program Files\Cisco Packet Tracer 7.2.2\bin\PacketTracer7.exe" enable=yes profile=any 
+
+@REM
+
+
+@REM program="C:\Program Files\Cisco Packet Tracer 7.3.0\bin\PacketTracer7.exe" 
+
+@REM https://www.itninja.com/blog/view/how-to-add-firewall-rules-using-netsh-exe-advanced-way
+@REM Cisco Packet Tracer
+@REM Omitting the protocol=tcp and/or protocol=udp will configure the rule to allow ALL protocols.
+@REM ALL Protocols mans TCP, UDP, ICMP, ...etc.
+
+@netsh advfirewall firewall add rule name="Cisco Packet Tracer 7.3.0 - TCP and UDP - CUSTOM" dir=in action=allow description="Cisco Packet Tracer 7.3.0 - TCP and UDP - CUSTOM" program="C:\Program Files\Cisco Packet Tracer 7.3.0\bin\PacketTracer7.exe" enable=yes profile=any 
+
+@REM
+
+@REM program="C:\Program Files\Cisco Packet Tracer 7.3.1\bin\PacketTracer7.exe" 
+
+@REM https://www.itninja.com/blog/view/how-to-add-firewall-rules-using-netsh-exe-advanced-way
+@REM Cisco Packet Tracer
+@REM Omitting the protocol=tcp and/or protocol=udp will configure the rule to allow ALL protocols.
+@REM ALL Protocols mans TCP, UDP, ICMP, ...etc.
+
+@netsh advfirewall firewall add rule name="Cisco Packet Tracer 7.3.1 - TCP and UDP - CUSTOM" dir=in action=allow description="Cisco Packet Tracer 7.3.1 - TCP and UDP - CUSTOM" program="C:\Program Files\Cisco Packet Tracer 7.3.1\bin\PacketTracer7.exe" enable=yes profile=any 
+
+@REM
+
+
+
+@REM program="C:\Program Files\Cisco Packet Tracer 7.3.2\bin\PacketTracer7.exe" 
+
+@REM https://www.itninja.com/blog/view/how-to-add-firewall-rules-using-netsh-exe-advanced-way
+@REM Cisco Packet Tracer
+@REM Omitting the protocol=tcp and/or protocol=udp will configure the rule to allow ALL protocols.
+@REM ALL Protocols mans TCP, UDP, ICMP, ...etc.
+
+@netsh advfirewall firewall add rule name="Cisco Packet Tracer 7.3.2 - TCP and UDP - CUSTOM" dir=in action=allow description="Cisco Packet Tracer 7.3.2 - TCP and UDP - CUSTOM" program="C:\Program Files\Cisco Packet Tracer 7.3.2\bin\PacketTracer7.exe" enable=yes profile=any 
+
+@REM
+
+
+@REM program="C:\Program Files\Cisco Packet Tracer 7.3.3\bin\PacketTracer7.exe" 
+
+@REM https://www.itninja.com/blog/view/how-to-add-firewall-rules-using-netsh-exe-advanced-way
+@REM Cisco Packet Tracer
+@REM Omitting the protocol=tcp and/or protocol=udp will configure the rule to allow ALL protocols.
+@REM ALL Protocols mans TCP, UDP, ICMP, ...etc.
+
+@netsh advfirewall firewall add rule name="Cisco Packet Tracer 7.3.3 - TCP and UDP - CUSTOM" dir=in action=allow description="Cisco Packet Tracer 7.3.3 - TCP and UDP - CUSTOM" program="C:\Program Files\Cisco Packet Tracer 7.3.3\bin\PacketTracer7.exe" enable=yes profile=any 
+
+
+@REM ----------------------------------------------------------------------------------------------------------
 
 
 
