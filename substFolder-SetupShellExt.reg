@@ -1,0 +1,15 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Folder\shell\substFolder]
+@="Subst folder to drive letter"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Folder\shell\substFolder\command]
+@="C:\\Utilities\\System\\substFolder\\substFolder.bat \"%L\""
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Folder\shell\substFolderUndo]
+@="Subst folder to drive letter - undo"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Folder\shell\substFolderUndo\command]
+@="C:\\Utilities\\System\\substFolder\\substFolderUndo.bat \"%L\""
+
